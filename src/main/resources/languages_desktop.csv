@@ -1,0 +1,966 @@
+var;en
+LANG_ERROR_API;Server API error
+LANG_ERROR_404;Server bad API request with 404 code.
+LANG_ERROR_500;Server fail API request - server error 500.
+LANG_ERROR_Default;Server fail API request for unknown reason.
+LANG_ERROR_NOT_AUTHORIZED;You are not authorized, please login in.
+LANG_ERROR_Static_Page_Not_Found_Header;Page not found.
+LANG_ERROR_Static_Page_Not_Found_Content;The specified page was not found.
+LANG_ERROR_FileUpload_Failed_TooLarge;Sorry, it looks like the photo you are trying to upload is more than 10MB.
+LANG_ERROR_FileUpload_Failed_TooLarge2;Sorry, it looks like the one of the photos You are trying to upload are more than 10MB each.
+LANG_ERROR_NoSuchPage_Title;Incorrect page.
+LANG_ERROR_NoSuchPage_Body;The specified page was not found.
+LANG_ERROR_GoBack_Link;Go back
+LANG_ERROR_FILE_SIZE;File is too big. Max size is 10Mb.
+LANG_ERROR_Placeholder_Text;We're trying to get everything up and breathing again as quickly as possible.
+LANG_ERROR_AUTH_1;Email or password was wrong.
+LANG_ERROR_AUTH_2;Email or password was wrong.
+LANG_ERROR_AUTH_3;Server internal error.
+LANG_ERROR_AUTH_4;Account is blocked.
+LANG_ERROR_AUTH_5;Email is empty, write Your Email.
+LANG_Restore_Done;New account password was sent to your e-mail.
+LANG_Restore_Facebook;Password cannot be restored for accounts created by Facebook.
+LANG_ERROR_Empty_Field;Please specify a Email and try again.
+LANG_ERROR_Session_Lost_Title;Session lost.
+LANG_ERROR_Session_Lost;You have been logged out. You need to log in to continue using the site.
+LANG_Validation_Error;Form data was invalid.
+LANG_Validation_Text;Please correct form data.
+LANG_Validaton_StringLength;Wrong text length.
+LANG_Validaton_Email;It is not a valid email address.
+LANG_Validaton_Url;It is not a valid url address.
+LANG_Validaton_NumberInterval;The number is not in the valid range.
+LANG_Validaton_Timestamp;This is not a valid date.
+LANG_Validation_Generic;Field data is wrong.
+LANG_Unsupported_Browser_Title;Unsupported Browser.
+LANG_Unsupported_Browser_Text;Unfortunately, your browser is outdated and thus not supported by our application. In order to be able to use the portal, please upgrade your browser to the latest version and try again.
+LANG_Restore_Notification_Success;Your password has been restored.
+LANG_Restore_Notification_Fail;Your password cannot be restored.
+LANG_title;Title
+LANG_content;Content
+LANG_Menu_Proximity;Proximity
+LANG_Menu_Buzz;Buzz
+LANG_Menu_Tour;Take the Tour
+LANG_Menu_Having_Issues;Having issues?
+LANG_Back;Back
+LANG_Paginated_Info;Page %(pageId)s of %(pageAll)s
+LANG_Selection;Selection
+LANG_Common_MarkdownSyntax;Markdown syntax
+LANG_Common_Info;Info
+LANG_Common_Ok;Ok'
+LANG_Asterisk_Required_Note;* denotes a required field.
+LANG_Meta_Title_Notifications;Notifications
+LANG_Meta_Title_Favourities;Bookmarks
+LANG_Meta_Title_Discovery;Discovery Feed
+LANG_Meta_Title_Rundowns;Trip reports
+LANG_Meta_Title_My_Groups;My Plans & Happenings
+LANG_Meta_Title_My_Happenings;My Happenings
+LANG_Meta_Title_My_Items;My Activity
+LANG_Meta_Title_Tour;Feature Tour
+LANG_Meta_Title_CreateProfile;Creating account.
+LANG_Meta_Title_EditProfile;Edit Profile
+LANG_Meta_Title_YourProfile;Your Profile
+LANG_Meta_Title_UserProfile;User Profile
+LANG_Meta_Title_Contacts;Contacts
+LANG_Meta_Title_Settings;Settings
+LANG_Meta_Title_UserSearch;Search Users
+LANG_Footer_Copyright;Copyright info
+LANG_Footer_Contact;Contact
+LANG_Footer_About;About
+LANG_App_Loading;Loading ...
+LANG_Auth_Login_Sing_In;Login
+LANG_Auth_Login_Text;Login
+LANG_Auth_BecomeAMember_Text;Become a member
+LANG_Auth_SignUp;Sign up
+LANG_Auth_Guest_Text;Guest
+LANG_Auth_Login;Email
+LANG_Auth_Password;Password
+LANG_Auth_Keep;Keep me signed in
+LANG_Auth_Registration1;If You don\'t have account just
+LANG_Auth_Registration2;register
+LANG_Auth_Forgot;Forgot your password?
+LANG_Auth_FacebookError;Facebook Connect error: 
+LANG_Auth_FacebookError_Internal;Internal error. Refresh the page and try again.
+LANG_Auth_FacebookError_BlockedAccount;Your Gociety account was removed or it is blocked.
+LANG_Auth_LoginError_Blocked;Cannot login. Your account has been blocked by the administrator.
+LANG_Auth_LoginError_DeviceBlocked;Cannot login. The device has been blocked by the administrator.
+LANG_Auth_LoginError_InvalidEmail;Please enter a valid email address.
+LANG_Auth_Back;Back to login
+LANG_Auth_Restore;Recover
+LANG_Auth_RestoreInfo;New password is active. You can change it here
+LANG_Menu_Sign_Out;Sign Out
+LANG_Menu_Sign_Out_Msg;Would you like to sign out?
+LANG_Menu_Cancel;Cancel
+LANG_Menu_Ok;Ok
+LANG_Or;or
+LANG_Auth_Facebook;Connect with Facebook
+LANG_Auth_Tour_Take;Take tour
+LANG_Auth_Create;Create an account
+LANG_Auth_SignUpWithEmail;Sign up with email
+LANG_Auth_SignUpWithFacebook;Sign up with Facebook
+LANG_Auth_LoginWithFacebook;Login with Facebook
+LANG_Auth_Or;Or
+LANG_Auth_Start;Sign in!
+LANG_Auth_Email;Email
+LANG_Auth_First_Name;First name
+LANG_Auth_Last_Name;Last name
+LANG_Auth_Confirm;Confirm
+LANG_Auth_Registration;Registration
+LANG_Auth_Create_Account;Create an account
+LANG_Auth_Cancel;Cancel
+LANG_Auth_Agree;By clicking 'Create account', you agree to 
+LANG_Auth_Therms;therms
+LANG_Auth_Privacy;privacy policy
+LANG_Auth_Reason_AwesomeThings;Find <strong>awesome things</strong><br/>to do outside
+LANG_Auth_Reason_NewPeople;Meet <strong>new people</strong>
+LANG_Auth_Reason_Adventurous;Be socially <strong>adventurous</strong>
+LANG_Auth_Reason_Find_And_Create_Adventures;Find and <strong>create<br/>outdoor</strong> adventures
+LANG_Auth_Reason_Explore_And_Share_Trip;Explore <strong>and share<br/>trip reports</strong>
+LANG_Auth_AlreadyMember;Already a <strong>member</strong>?
+LANG_And;and
+LANG_FB_Logging;Logging In
+LANG_Menu_Profile_Edit;My Profile
+LANG_Menu_Messages;Messages
+LANG_Menu_MyGroups;My Activity
+LANG_Menu_Bookmarks;Bookmarks
+LANG_Menu_Contacts;Contacts
+LANG_Menu_Search;Profiles
+LANG_Menu_Close;Close
+LANG_Menu_MyGociety;My gociety
+LANG_Global_ShowFilter;Show filter
+LANG_Global_HideFilter;Hide filter
+LANG_Global_Filter;Filter
+LANG_Global_ClearFilter;Clear filter
+LANG_Global_Month;Month
+LANG_Global_Day;Day
+LANG_Global_Year;Year
+LANG_Global_ShortMonths[0];jan
+LANG_Global_ShortMonths[1];feb
+LANG_Global_ShortMonths[2];mar
+LANG_Global_ShortMonths[3];apr
+LANG_Global_ShortMonths[4];may
+LANG_Global_ShortMonths[5];jun
+LANG_Global_ShortMonths[6];jul
+LANG_Global_ShortMonths[7];aug
+LANG_Global_ShortMonths[8];sep
+LANG_Global_ShortMonths[9];oct
+LANG_Global_ShortMonths[10];nov
+LANG_Global_ShortMonths[11];dec
+LANG_Global_Group;plan
+LANG_Global_Happening;happening
+LANG_Global_ApproxTimes[0];morning
+LANG_Global_ApproxTimes[2];afternoon
+LANG_Global_ApproxTimes[3];evening
+LANG_Global_ApproxTimes[4];all day
+LANG_Global_Preview;Preview
+LANG_Global_Loading;Loading data ...
+LANG_Global_Change;Change
+LANG_Global_Remove;Remove
+LANG_Global_SelectImage;Select image
+LANG_Global_ShortDays[0];sun
+LANG_Global_ShortDays[1];mon
+LANG_Global_ShortDays[2];tue
+LANG_Global_ShortDays[3];wed
+LANG_Global_ShortDays[4];thu
+LANG_Global_ShortDays[5];fri
+LANG_Global_ShortDays[6];sat
+LANG_Global_Back;Back
+LANG_Global_Post;Post
+LANG_Global_Cancel;Cancel
+LANG_Global_Close;Close
+LANG_Global_Edit;Edit
+LANG_Global_Save;Save
+LANG_Global_CharacterCount;%d characters left.
+LANG_Global_New;New
+LANG_Global_Menu;Menu
+LANG_Global_Yes;Yes
+LANG_Global_No;No
+LANG_Global_Success;Success
+LANG_Global_Error;Error
+LANG_Profile_Goscore;GoScore:
+LANG_Profile_Title;the profile
+LANG_Profile_editProfile1_Title;The Basics
+LANG_Profile_editProfile2_Title;Your Interests
+LANG_Profile_editProfile3_Title;More You
+LANG_Profile_editProfile1_Photo_Tagline;Optimal size is 120px x 120px and less than 10MB.
+LANG_Profile_ShowCharacters;Show characters
+LANG_Profile_Next;Next
+LANG_Profile_IAgree;I AGREE
+LANG_Profile_Finished;FINISHED
+LANG_Profile_Accept;Accept
+LANG_Profile_Deny;Deny
+LANG_Profile_Show;Show
+LANG_Profile_Skip;Skip
+LANG_Profile_More_About_Me;More about me
+LANG_Profile_Edit;Edit Profile
+LANG_Profile_Total_Contacts;Total number of contacts
+LANG_Profile_Common_Contacts;Contacts in Common
+LANG_Profile_Page1_Msg;You're never going to meet anyone going anonymous.... hence our handy form.
+LANG_Profile_First_Name;First name
+LANG_Profile_Last_Name;Last name
+LANG_Profile_Username;username
+LANG_Profile_GenderLabel;* Gender
+LANG_Profile_Male;male
+LANG_Profile_Female;female
+LANG_Profile_City;city, state or zip
+LANG_Profile_Email;email address
+LANG_Profile_Page1_Note;* denotes a required field. The only information that is shown to the public is username, age and gender.
+LANG_Profile_Page1_Err_Msg_Title;All fields are required
+LANG_Profile_Page1_Err_Msg_Text;Fill all required fields, please.
+LANG_Profile_Page2_Msg;Tell us about your abilities. You want to do this. (Note, the more you write, the better match your activity partners will be.)
+LANG_Profile_Ability_Lvl;Ability level
+LANG_Profile_Ability_Msg ;Max. 140 characters.
+LANG_Profile_Sport_Desc;Description here lorem ipsum 140 characters should appear within no time.
+LANG_Profile_Page2_Err_Msg_Title;All fields are mandatory
+LANG_Profile_Page2_Err_Msg_Text;Fill all required fields, please.
+LANG_Profile_No_Sport;Oops... There is no data to display.
+LANG_Profile_Page3_Msg;This is the part where you let your personality shine like the sun. What are you about?
+LANG_Profile_No_Question;Oops... There is no data to display.
+LANG_Profile_Steps_Step1;The Basics
+LANG_Profile_Steps_Step2;The Details
+LANG_Profile_Steps_Step3;The Jam
+LANG_Profile_User_Sports;Sports
+LANG_Profile_FirstName_Label;* First name
+LANG_Profile_LastName_Label;* Last name
+LANG_Profile_UserName_Label;User name
+LANG_Profile_BirthDate_Label;* Date of Birth
+LANG_Profile_BirthMonth_Placeholder;MM
+LANG_Profile_BirthDay_Placeholder;DD
+LANG_Profile_BirthYear_Placeholder;YYYY
+LANG_Profile_Location_Label;* Location
+LANG_Profile_Email_Label;* Email
+LANG_Profile_EmailPlaceholder;Enter email
+LANG_Profile_PassNew_Label;* Password must be min. 6 characters.
+LANG_Profile_PassPlaceholder;Enter password
+LANG_Profile_PassNewRep_Label;* Confirm password
+LANG_Profile_PassNewRepPlaceholder;Retype password
+LANG_Profile_EditPass_OldLabel;* Your old password
+LANG_Profile_EditPass_NewLabel;* New password
+LANG_Profile_EditPass_NewRepLabel; * Confirm new password
+LANG_Profile_Photo_Label;Profile photo
+LANG_Profile_PhotoNoPhoto;Remove
+LANG_Profile_PhotoRemove;Remove
+LANG_Profile_PhotoSelect;Select
+LANG_Profile_PhotoChange;Change
+LANG_Profile_CountryLabel;Country
+LANG_Profile_ZipCodeLabel;Zip code
+LANG_Profile_ZipCodePlaceholder;Enter zip code
+LANG_Profile_LocationLabel;Location
+LANG_Profile_LocationPlaceholder;Enter location
+LANG_Profile_StateLabel;State
+LANG_Profile_NoContacts;This user does not have any contacts yet!
+LANG_Profile_ContactsList_Header;Contacts
+LANG_Profile_CommonContactsList_Header;Common contacts
+LANG_Profile_CommonContacts_NoContacts;You don't have any contacts in common with this user.
+LANG_Profile_LoginExists;Selected email already exists
+LANG_Profile_LoginLengthErr;Incorrect email length.
+LANG_Profile_SelectState;Select state
+LANG_Profile_NoSportDesc;Please fill out mandatory fields.
+LANG_Profile_NoSportNotify;Please fill out mandatory fields.
+LANG_Profile_No_Sports_Mine;Oops, you haven't selected any sports yet!
+LANG_Profile_No_Sports;This user doesn't have any sports selected.
+LANG_Profile_Settings;Settings
+LANG_Profile_EditProfile_Step1;The Basics
+LANG_Profile_EditProfile_Step2;The Details
+LANG_Profile_EditProfile_Step3;The Jam
+LANG_Profile_EditProfile_SportDescription;Description
+LANG_Profile_ProfileSettings_Account;Account
+LANG_Profile_ProfileSettings_Account_EditYourProfile;Edit your profile
+LANG_Profile_ProfileSettings_Account_EditYourPassword;Edit your password
+LANG_Profile_ProfileSettings_Account_TermsOfService;Terms of Service
+LANG_Profile_ProfileSettings_Account_DeleteYourAccount;Delete your account
+LANG_Profile_ProfileSettings_Account_EditYourProfile_Desc;Here you can change your profile
+LANG_Profile_ProfileSettings_Account_EditYourPassword_Desc;If you want change your password
+LANG_Profile_ProfileSettings_Account_TermsOfService_Desc;Terms of Service
+LANG_Profile_ProfileSettings_Account_DeleteYourAccount_Desc;This option remove your account - be careful with this button
+LANG_Profile_ProfileSettings_Account_AreYouSure;Are you sure?
+LANG_Profile_ProfileSettings_Account_AreYouSureDeleteAccont;Are you sure You want to delete your account? This action is irreversible.
+LANG_Profile_ProfileSettings_Account_DeleteFailText;Your profile can't be deleted, contact with administrator
+LANG_Profile_ProfileSettings_Account_DeleteSuccessText;Your account has been removed
+LANG_Profile_ProfileSettings_Account_EditPasswordSuccessText;Your password has been changed
+LANG_Profile_ProfileSettings_SocialSettings;Social network settings
+LANG_Profile_ProfileSettings_Notifications;Notification settings
+LANG_Profile_ProfileSettings_Devices;Device settings
+LANG_Profile_ProfileSettings_Save_Ok;Your settings have been saved!
+LANG_Profile_ProfileSettings_Save_Fail;We couldn't save your settings due to an error. Please try again.
+LANG_Profile_ProfileSettings_FetchFail;We couldn't read your settings. Please try again.
+LANG_Profile_ProfileSettings_SocialSettings_Name;Social network
+LANG_Profile_ProfileSettings_SocialSettings_ID;ID
+LANG_Profile_ProfileSettings_SocialSettings_Show;Display in profile
+LANG_Profile_ProfileSettings_Socials.twitter;twitter.com/
+LANG_Profile_ProfileSettings_Socials.instagram;instagram.com/
+LANG_Profile_ProfileSettings_SocialSettings_Desc;This screen allows you to configure which social networks will be displayed on your profile.
+LANG_Profile_ProfileSettings_Notifications_Name;Notification
+LANG_Profile_ProfileSettings_Notifications_EMail;E-mail
+LANG_Profile_ProfileSettings_Notifications_Push;Push
+LANG_Profile_ProfileSettings_Notifications_Desc;This screen allows you to configure which notifications you wish to receive.
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_JOIN_REQUEST;Someone wants to join your plan
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_JOIN_REQUEST_DECLINED;Your request to join a plan was declined
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_JOIN_REQUEST_ACCEPTED;Your request to join a plan was accepted
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_USER_JOINED;Someone joined a plan you're in
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_USER_LEFT;User left a plan
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_NEW_POST;Someone commented in a plan
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_HAPPENING_USER_JOINED;User joined a happening
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_HAPPENING_USER_LEFT;User left a happening
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_UPVOTE;User upvoted your plan;
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_UPVOTE;User upvoted your trip report;
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_HAPPENING_NEW_POST;User wrote a post in a happening
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_INVITED_TO_GROUP;User invited another user(s) to a plan or happening
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_INVITATION;You have been invited to join a plan 
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_NEW_MESSAGE;User received a new private message
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_NEW_CONTACT;Someone adds you to their contacts
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_DELETE_CONTACT;User was removed from contacts list
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_EXPIRED;A plan you started has expired
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_CREATED_FROM_RUNDOWN;Someone posted a trip report from your plan
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_COMMENT;Someone commented on a trip report you posted
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_VOTE_CAST;Someone likes your trip report
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_PHOTO_LIKE;Someone liked your trip report photo
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_PHOTO_COMMENT;Someone commented on your trip report photo
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_RUNDOWN_USER_TAG;Someone tagged you in a trip report
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_GROUP_USER_JOINED_AUTOACCEPT;Someone was autoaccepted to your plan
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_MESSAGE;You have new messages
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_USER_NEW_HIGH_FIVE;Someone gave you a high five
+LANG_Profile_ProfileSettings_Notifications_Types.TYPE_COMMENT_USER_TAG;Someone tagged you in a comment
+LANG_Profile_ProfileSettings_Devices_Name;Device
+LANG_Profile_ProfileSettings_Devices_BindTime;First used
+LANG_Profile_ProfileSettings_Devices_LastUsage;Last used
+LANG_Profile_ProfileSettings_Devices_Actions;Actions
+LANG_Profile_ProfileSettings_Devices_Desc;This screen allows you to review devices which you used to access the portal.
+LANG_Profile_ProfileSettings_Devices_Browser;Desktop browser
+LANG_Profile_ProfileSettings_Devices_Block;Block
+LANG_Profile_ProfileSettings_Devices_Unblock;Unblock
+LANG_Profile_ProfileSettings_AreYouSure;Are you sure that you want to save the settings?
+LANG_Profile_statGroupsCreated;Plans created
+LANG_Profile_statGroupsJoined;Plans joined
+LANG_Profile_statContacts;Contacts
+LANG_Profile_GighFive;High five
+LANG_Profile_EditHighFive;Edit high five;
+LANG_Profile_DeleteHighFive;Delete high five;
+LANG_Profile_DeleteHighFiveText;Do you really want to delete this high five?
+LANG_Profile_HighFiveDelete;Delete;
+LANG_Profile_HighFiveEdit;Edit;
+LANG_Profile_profileViews;Views
+LANG_Profile_ExistingImages;Existing images
+LANG_Profile_setAsThumbnail;Set as avatar
+LANG_Profile_Captions;Captions
+LANG_Profile_AddImages;Add images
+LANG_Profile_Photo_Tagline_2;Optimal avatar size size is 120px x 120px and less than 10MB.
+LANG_Profile_UnsupportedBrowser;Gociety performs best on Internet Explorer 10 & 11,  the newest Chrome, Firefox and Safari on Mac browsers
+LANG_Menu_Welcome;Welcome
+LANG_Menu_Settings;settings
+LANG_Menu_About;about us
+LANG_Menu_Blog;Blog
+LANG_Menu_Logout;Logout
+LANG_Menu_Discovery_Feed;Discovery Feed
+LANG_Menu_Discovery_Rundowns;Trip reports
+LANG_Menu_Notifications;Notifications
+LANG_Discovery_LookingFor;I'm looking for:
+LANG_Discovery_Filter;Filter
+LANG_Discovery_Groups;Plans
+LANG_Discovery_Groups_NoItem;There are no plans matching given criteria.
+LANG_Discovery_Happenings;Happenings
+LANG_Discovery_Happenings_NoItem;There are no happenings matching given criteria.
+LANG_Discovery_my;my
+LANG_Discovery_Create_Group;Make a Plan >
+LANG_Discovery_Create_Group_Text;Get out of the house and onto the VERTICAL
+LANG_Discovery_Create_Happening;Create a Happening >
+LANG_Discovery_Filter_Keyword;Keyword search
+LANG_Discovery_Filter_ApproxTime;Approximate time
+LANG_Discovery_Filter_DateRange;Date range
+LANG_Discovery_Filter_Sport;Sport
+LANG_Discovery_Filter_Intensity;Intensity
+LANG_Discovery_Filter_Location;Location
+LANG_Discovery_Filter_Search;Search
+LANG_Discovery_Filter_Cancel;Cancel
+LANG_Discovery_Filter_Reset;Reset
+LANG_Discovery_Filter_NoIntensities;Choose a sport first.
+LANG_Discovery_Filter_notShowExpired;Do not show expired.
+LANG_Discovery_Filter_Sorting;Sort by
+LANG_Discovery_Filter_Sorting_Opts[0];active first
+LANG_Discovery_Filter_Sorting_Opts[1];most recent
+LANG_Discovery_Filter_Sorting_Opts[2];nearest to me
+LANG_Discovery_Filter_Sorting_Opts[3];event time
+LANG_Discovery_Filter_NoMatch;No items matching your criteria.
+LANG_Discovery_NoItems;No items found.
+LANG_Discovery_Filter_To;to
+LANG_CreateGroup_Btn_Text;Make a Plan
+LANG_CreateGroup_TextOnForm;Start a Gociety plan whenever you’re heading outdoors, and get some awesome people to join you. Post last-minute or a week before. Gociety is all about creating spontaneous, one-time get togethers. You have the chance to accept or deny members into your Gociety plan, ensuring you get outside with the best people for any adventure.
+LANG_CreateRundown_Btn_Text;Post a Trip report
+LANG_ConvertRundown_Btn_Text;Convert to Trip report
+LANG_Btn_ShareToFacebook;Share to Facebook
+LANG_Btn_ShareToTwitter;Share to Twitter
+LANG_Btn_Edit;Edit
+LANG_Btn_PostAsRundown;Post as Trip report
+LANG_Btn_Pending;Pending
+LANG_Btn_Join;Join
+LANG_Btn_AcceptInvitation;Accept Invitation
+LANG_Btn_AddToBookmarks;Add to Bookmarks
+LANG_Btn_AddedToBookmarks;Added to Bookmarks
+LANG_Btn_InviteContacts;Invite contacts
+LANG_Btn_Leave;Leave
+LANG_Btn_PostIt;Looks good? Post it!
+LANG_AlreadyConvertedRundown_Btn_Text;Already converted
+LANG_CreateGroup_PageTitle;Make a Plan
+LANG_CreateGroup_PageTitle_Edit;Edit your Plan
+LANG_CreateGroup_Title;* I plan to...
+LANG_CreateGroup_Title_Placeholder;max 40 characters
+LANG_CreateGroup_Location;* Location
+LANG_CreateGroup_Location_Placeholder;nearest city, state
+LANG_CreateGroup_ThumbPhoto;Thumbnail photo
+LANG_CreateGroup_ThumbPhoto_Tagline;Optimal size is 230px x 250px and less than 10MB.
+LANG_CreateGroup_Photo;Plan space photo
+LANG_CreateGroup_Photo_Tagline;This is your chance to be creative. If you can't think of something awesome, go snap a photo of your running shoes or your skis.
+LANG_CreateGroup_Photo_Tagline_2;For best results use horizontal photos. Optimal banner size is 720 x 250 px and less than 10MB. You can add up to 5 images. 
+LANG_CreateGroup_Date;* Date
+LANG_CreateGroup_Date_Starting_on;* Date starting
+LANG_CreateGroup_Date_To;Date ending
+LANG_CreateGroup_Sport;* Category
+LANG_CreateGroup_Intesity;* Pace
+LANG_CreateGroup_Description;* Description
+LANG_CreateGroup_Description_Placeholder;max 200 characters
+LANG_CreateGroup_Create_Button;Save
+LANG_CreateGroup_Cancel_Button;Cancel
+LANG_CreateGroup_ApproxTime;* Approximate time
+LANG_CreateGroup_Photo_Change;Keep the photo
+LANG_CreateGroup_Country;Country
+LANG_CreateGroup_ZipCode;Zip code
+LANG_CreateGroup_State;State
+LANG_CreateGroup_SelectState;Select state
+LANG_CreateGroup_AddImages;Add Banner Images
+LANG_CreateGroup_ExistingImages;Existing images
+LANG_CreateGroup_Tour_Button;Tour
+LANG_CreateGroup_AutoAccept;Auto accept
+LANG_CreateGroup_AutoAcceptText;Check this box to allow anyone to join your plan. Leave it unchecked if you want to control who can join your plan
+LANG_CreateGroup_Preview;Please fill in all required fields
+LANG_CreateGroup_Subcategory;Sub-category
+LANG_CreateRundown_PageTitle;Post a Trip report
+LANG_CreateRundown_PageTitle_Edit;Edit your Trip report
+LANG_CreateRundown_RundownDesc1;What’s a Trip report?
+LANG_CreateRundown_RundownDesc2;Trip reports are trip reports from adventures you’ve been on. Gociety is all about spontaneity and discovery, and posting a Trip report is the best way to share your experiences with the Gociety community, and be inspired by the places other people have gone. Think of it as a visual journal for your outdoor life.
+LANG_CreateRundown_Title;* Trip title
+LANG_CreateRundown_Location;* Nearest City, State
+LANG_CreateRundown_LocationInfo;Location (140 characters max)
+LANG_CreateRundown_Description;* Description
+LANG_CreateRundown_Sport;* Sport
+LANG_CreateRundown_Intesity;* Intensity
+LANG_CreateRundown_LevelOfFun;* Level of Fun
+LANG_CreateRundown_Date_Starting_on;* Trip date
+LANG_CreateRundown_Date_Ending_on;Trip end date
+LANG_CreateRundown_Conditions;Conditions (140 characters max)
+LANG_CreateRundown_WhyGoNow;Why go now (140 characters max)
+LANG_CreateRundown_DontMiss;Don’t miss (140 characters max)
+LANG_CreateRundown_BewareOf;Beware of (140 characters max)
+LANG_CreateRundown_Tags;Tags (words or phrases)
+LANG_CreateRundown_ExistingImages;Existing images
+LANG_CreateRundown_AddImages;Add images
+LANG_CreateRundown_Photo_Tagline_2;For best results use horizontal photos. Optimal banner size is 720 x 250 px and less than 10MB. You can add up to 5 images. 
+LANG_CreateRundown_Create_Button;Save
+LANG_CreateRundown_Cancel_Button;Cancel
+LANG_CreateRundown_textPostARundown;Post a Trip report
+LANG_CreateRundown_viewRundownDetails_label;AT A GLANCE
+LANG_CreateRundown_Label_city;NEAREST CITY, STATE
+LANG_CreateRundown_Label_location;LOCATION
+LANG_CreateRundown_Label_sportIntencity;SPORT & INTENSTIY
+LANG_CreateRundown_Label_levelOfFun;LEVEL OF FUN
+LANG_CreateRundown_Label_conditions;CONDITIONS
+LANG_CreateRundown_Label_whyGoNow;WHY GO NOW
+LANG_CreateRundown_Label_bewareOf;BEWARE OF
+LANG_CreateRundown_Label_dontMiss;DON’T MISS
+LANG_CreateRundown_Label_views;VIEWS
+LANG_CreateRundown_Label_rundown;TRIP REPORT
+LANG_CreateRundown_setAsThumbnail;Set as thumbnail
+LANG_CreateRundown_Captions;Caption:
+LANG_CreateRundown_PH_Name;city, state
+LANG_CreateRundown_PH_Conditions;i.e. stormy, sunny and hot, very cold and snowing, etc.
+LANG_CreateRundown_PH_LocationInfo;i.e. Indian Peaks Wilderness, Devil's Thumb, etc.
+LANG_CreateRundown_PH_WhyGoNow;i.e. fall foliage, views, etc.
+LANG_CreateRundown_PH_DontMiss;i.e. the view at 14k feet, Lake Trill, etc.
+LANG_CreateRundown_PH_BewareOf;i.e. water on the trail, ice on the run, etc.
+LANG_CreateRundown_PH_Tags;i.e. backcountry, vail pass, wilderness area etc.
+LANG_ViewGroup_NoPhoto;No photo
+LANG_ViewGroup_Details_Heading;The Details
+LANG_ViewGroup_Bookmark;Bookmark
+LANG_ViewGroup_RSVP;RSVP
+LANG_ViewGroup_Join;Join
+LANG_ViewGroup_Pending;Pending
+LANG_ViewGroup_GroupCreator;Creator
+LANG_ViewGroup_Accept;Accept
+LANG_ViewGroup_Decline;Decline
+LANG_ViewGroup_Leave;Leave
+LANG_ViewGroup_MembersTab;Members | 
+LANG_ViewGroup_MembersTabNeedSignIn;Members 
+LANG_ViewGroup_NeedSignIn;Sign in to view members. 
+LANG_ViewGroup_MembersTabSingle;Member
+LANG_ViewGroup_PostsTab;Messages
+LANG_ViewGroup_PostsTabSingle;Message
+LANG_ViewGroup_Post_Says; says
+LANG_ViewGroup_NoPosts;No comments yet!
+LANG_ViewGroup_WritePost;Post
+LANG_ViewGroup_WritePostEditCancel;Cancel
+LANG_ViewGroup_PostDelete;Delete
+LANG_ViewGroup_PostEdit;Edit
+LANG_ViewGroup_Share;Share
+LANG_ViewGroup_DisplayAll;Display all comments
+LANG_ViewGroup_Invite;Invite
+LANG_ViewGroup_InvitePopup_Invite;Send invitation
+LANG_ViewGroup_InviteTitle;Invite
+LANG_ViewGroup_InviteInputPlaceholder;Search Contacts
+LANG_ViewGroup_Invite_NoContacts;You don't have anyone to invite.
+LANG_ViewGroup_Invite_Ok;Your invitation has been successfully sent.
+LANG_ViewGroup_Invite_Fail;Some error happened. Please try again.
+LANG_ViewGroup_SignInToSeePosts;Sign in to view comments.
+LANG_ViewGroup_PostsCaption;Comments
+LANG_ViewGroup_Expired;Looks like this plan has ended!
+LANG_ViewGroup_Expired_CreateOwn;Start your own?
+LANG_ViewGroup_GroupRundowns;Trip reports
+LANG_ViewGroup_PostLockOn;on
+LANG_ViewGroup_PostLockOff;off
+LANG_ViewGroup_PostLockOnText;Messages viewable to the public
+LANG_ViewGroup_PostLockOffText;Messages can only be viewed by members
+LANG_ViewGroup_BecomeAMember;Become a member
+LANG_ViewGroup_Or;or
+LANG_ViewGroup_SignIn;sign in
+LANG_ViewGroup_ToJoin; to ask questions about this plan!
+LANG_ViewGroup_KnowMore;Want to know more about this plan?
+LANG_ViewGroup_AskHere;Ask here!
+LANG_ViewGroup_Delete_Question;Are you sure you would like to delete this plan
+LANG_ViewGroup_Delete;Delete
+LANG_CreateHappening_PageTitle;Create a Happening
+LANG_CreateHappening_PageTitle_Edit;Edit your Happening
+LANG_CreateHappening_Title;Title *
+LANG_CreateHappening_Title_Placeholder;max 40 characters
+LANG_CreateHappening_Location;Location *
+LANG_CreateHappening_Location_Placeholder;nearest city, state
+LANG_CreateHappening_ThumbPhoto;Thumbnail photo
+LANG_CreateHappening_ThumbPhoto_Tagline;The width of this picture should be 230 pixels.
+LANG_CreateHappening_Photo;Happening space photo
+LANG_CreateHappening_Photo_Tagline;This is your chance to be creative. If you can't think of something awesome, go snap a photo of your running shoes or your skis.
+LANG_CreateHappening_Photo_Tagline_2;The width of this picture should be 720 pixels.
+LANG_CreateHappening_Date;Date
+LANG_CreateHappening_Sport;Sport *
+LANG_CreateHappening_Intesity;Intensity *
+LANG_CreateHappening_Description;Description *
+LANG_CreateHappening_Description_Placeholder;max 200 characters
+LANG_CreateHappening_Create_Button;Create
+LANG_CreateHappening_Cancel_Button;Cancel
+LANG_CreateHappening_ApproxTime;Approximate time *
+LANG_ViewHappening_MembersTab;Participants
+LANG_ViewHappening_MembersTabSingle;Participant
+LANG_ViewHappening_GroupCreator;Creator
+LANG_ViewHappening_Expired;Looks like this happening has ended!
+LANG_Bookmarks_Delete;Remove
+LANG_Bookmarks_Join;Join
+LANG_Bookmarks_Attending; Attending
+LANG_Bookmarks_Members; Members
+LANG_Bookmarks_NoBookmarks;You don't have any bookmarks!
+LANG_Bookmarks_Sorting;Sorting order:
+LANG_Bookmarks_Sort_Btn_None;None
+LANG_Bookmarks_Sort_Btn_Recent;Recently added
+LANG_Bookmarks_Sort_Btn_Date;Happening soon
+LANG_Bookmarks_Sort_Btn_Location;Location
+LANG_MyGroups_Groups;My plans
+LANG_MyGroups_NoGroups;You haven't joined any plan yet!
+LANG_MyGroups_Happenings;My happenings
+LANG_MyGroups_NoHappenings;You don't participate in any happenings!
+LANG_MyGroups_Rundowns;My trip reports
+LANG_MyGroups_NoRundowns;You haven't created any trip reports yet!
+LANG_MyGroups_Owner;Owner
+LANG_MyGroups_Member;Member
+LANG_MyGroups_Expired;Expired
+LANG_MyGroups_Participant;Participant
+LANG_MyGroups_Pending;Pending
+LANG_MyGroupsAndHapp;Members
+LANG_Contacts_Title;Contacts
+LANG_Contacts_NoContact;You don't have any contacts yet!
+LANG_Contacts_NoContact_SportFilter;No contacts matching your criteria!
+LANG_Contacts_Button_Add_Contacts;Add to contacts
+LANG_Contacts_Button_Add_Contacts_AlreadyIn;Contact added
+LANG_Contacts_Sorting;Sorting order:
+LANG_Contacts_Sort_Btn_Sport;Sport
+LANG_Contacts_Sort_Btn_Alphabetical;Alphabetical
+LANG_Contacts_Sort_Btn_Recent;Recently added
+LANG_Contact_Add_Message_Success_Title;User added to your contacts.
+LANG_Contact_Add_Message_Error_Title;Error. Contact is not added.
+LANG_Contact_Add_Message_Error_Content;User has been added to your contact list.
+LANG_Contact_Remove_From_Contacts;Remove
+LANG_Contact_Delete_Dialogs_Question;Do you want to delete the contact %(userName)s
+LANG_Contact_SelectSport;Select sport...
+LANG_Post_Delete_Dialogs_Question;Do you want to delete the comment
+LANG_Notifications_Title;Notifications
+LANG_Notifications_NoNotifications;You don't have any notifications.
+LANG_Notification_Type_User_Request_Join_Group_Title;Someone wants to join your plan.
+LANG_Notification_Type_User_Request_Join_Group;%(userName)s wants to join your plan, %(groupName)s.
+LANG_Notification_Type_User_Join_Group_Title;Someone joined a plan you're in.
+LANG_Notification_Type_User_Join_Group;%(userName)s joined a plan you're in, %(groupName)s.
+LANG_Notification_Type_User_Join_Event_Title;User joined your happening.
+LANG_Notification_Type_User_Join_Event;%(userName)s joined your happening, %(groupName)s.
+LANG_Notification_Type_User_Join_Autoaccept;%(userName)s joined your plan, %(groupName)s.
+LANG_Notification_Type_User_Write_Group_Post_Title;Someone commented in a plan.
+LANG_Notification_Type_User_Write_Group_Post;%(userName)s wrote %(postTitle)s in your plan.
+LANG_Notification_Type_User_Write_Event_Post_Title;User wrote a post in a happening.
+LANG_Notification_Type_User_Write_Event_Post;%(userName)s wrote %(postTitle)s in happening %(happeningName)s.
+LANG_Notification_Type_User_Invited_Title;Someone invited another user(s) to join a plan.
+LANG_Notification_Type_User_Invited;%(senderName)s invited people to %(itemName)s.
+LANG_Notification_Type_Invitation_Title;You have been invited.
+LANG_Notification_Type_Invitation;%(senderName)s has invited you to join %(itemName)s.
+LANG_Notification_Type_Join_Request_Accepted;Your request to join the plan %(groupName)s was accepted.
+LANG_Notification_Type_Join_Request_Decline;Your request to join the plan %(groupName)s was declined.
+LANG_Notification_Type_Leave_Single;User %(userName)s left your %(itemTypeName)s, %(itemName)s.
+LANG_Notification_Type_Leave_Multi;Some users left your %(itemTypeName)s, %(itemName)s.
+LANG_Notification_Type_USER_NEW_CONTACT_Title;Someone adds you to their contact list.
+LANG_Notification_Type_USER_NEW_CONTACT;%(senderName)s added you to their contact list.
+LANG_Notification_Type_DELETE_CONTACT_Title;You're deleted from the list of contacts.
+LANG_Notification_Type_DELETE_CONTACT;%(senderName)s deleted you from contact list.
+LANG_Notification_Type_GROUP_EXPIRED_Title;A plan you started has expired.
+LANG_Notification_Type_GROUP_EXPIRED;Your plan %(groupName)s has expired. Tell your story by posting a trip report and sharing with friends!
+LANG_Notification_Type_GROUP_CREATED_FROM_RUNDOWN_Title;Someone posted a trip report from your plan.
+LANG_Notification_Type_GROUP_CREATED_FROM_RUNDOWN;%(authorName)s posted a trip report on %(groupName)s.
+LANG_Notification_Type_RUNDOWN_COMMENT_Title;Someone commented on a trip report posted.
+LANG_Notification_Type_RUNDOWN_COMMENT;%(senderName)s commented on the trip report %(rundownName)s.
+LANG_Notification_Type_RUNDOWN_VOTE_CAST_Title;Someone likes your trip report.
+LANG_Notification_Type_RUNDOWN_VOTE_CAST;%(senderName)s likes your trip report %(rundownName)s.
+LANG_Notification_Type_RUNDOWN_PHOTO_LIKE_Title;Someone liked your trip report photo.
+LANG_Notification_Type_RUNDOWN_PHOTO_LIKE;%(senderName)s liked one of your photos from %(rundownName)s.
+LANG_Notification_Type_RUNDOWN_USER_TAG_TITLE;Someone tagged you in a trip report.
+LANG_Notification_Type_RUNDOWN_USER_TAG;You were tagged in %(rundownName)s. Way to be adventurous!
+LANG_Notification_Type_RUNDOWN_PHOTO_COMMENT_Title;Someone commented on your trip report photo.
+LANG_Notification_Type_RUNDOWN_PHOTO_COMMENT;%(senderName)s commented on your trip report photo!
+LANG_Notification_Type_USER_MESSAGE_Title;You have new messages.
+LANG_Notification_Type_USER_MESSAGE;%(senderName)s says %(messageContent)s.
+LANG_Notification_Type_USER_HIGHFIVE_Title;Someone gave you a high five.
+LANG_Notification_Type_USER_HIGHFIVE;%(senderName)s gave you a high five!
+LANG_Notification_Type_GROUP_UPVOTE;%(senderName)s upvoted your Plan '%(feedItemName)s'!
+LANG_Notification_Type_RUNDOWN_UPVOTE;%(senderName)s upvoted your trip report '%(feedItemName)s'!
+LANG_Notification_Type_COMMENT_USER_TAG_TITLE;Someone tagged you in a comment.
+LANG_Notification_Type_COMMENT_USER_TAG;%(senderName)s tagged you in a comment.
+LANG_Pretty_Date_Minutes; minutes ago
+LANG_Pretty_Date_Just_Now;just now
+LANG_Pretty_Date_Minute_Ago;1 minute ago
+LANG_Pretty_Date_One_Hours_Ago;1 hour ago
+LANG_Pretty_Date_Hours_Ago; hours ago
+LANG_Pretty_Date_Yesterday;Yesterday
+LANG_Pretty_Date_Days_Ago; days ago
+LANG_Pretty_Date_Weeks_Ago; weeks ago
+LANG_Pretty_Date_Week_Ago; week ago
+LANG_Pretty_Date_Month_Ago; month ago
+LANG_Pretty_Date_Months_Ago; months ago
+LANG_Pretty_Date_Year_Ago; year ago
+LANG_Pretty_Date_Years_Ago; years ago
+LANG_Pretty_Date_SomeTime_Ago;Some time ago
+LANG_ERROR_FileUpload_Failed_FileError;The file you were trying to upload is invalid.
+LANG_ViewGroup_PostsOnlyForLoggedUser;Join this Plan to view comments
+LANG_ViewHappening_PostsOnlyForLoggedUser;Become a member to view posts in this happening.
+LANG_Menu_noMemberItem_NotLoggedHappening;No participants yet!
+LANG_Splash_TakeALook;Take a look around first
+LANG_Footer_Menu_Terms;Terms of Service
+LANG_Footer_Menu_Policy;Privacy Policy
+LANG_Footer_Menu_About;About Us
+LANG_Footer_Menu_Contact;Contact Us
+LANG_Footer_Menu_Blog;Our Blog
+LANG_Footer_Be_Social;Be Social With Us
+LANG_Footer_Available;Available on the 
+LANG_Footer_Available_iOS;App Store
+LANG_Footer_Available_Android;Google Play
+LANG_Footer_Copy;© {0} GOCIETY, LLC - ALL RIGHTS RESERVED
+LANG_Validation[0];This field is required.
+LANG_Validation[1];Entered value is already taken.
+LANG_Validation[2];Entered value has to be at least {0} characters long.
+LANG_Validation[3];Entered value has to be at most {0} characters long.
+LANG_Validation[4];Entered value has to be equal at least {0}.
+LANG_Validation[5];Entered value has to be equal at most {0}.
+LANG_Validation[6];Please enter a valid email address.
+LANG_Validation[7];This field is required.
+LANG_Validation[8];This field is required.
+LANG_Validation[9];Please enter valid date.
+LANG_Validation[10];Please enter valid date.
+LANG_Validation[11];Future date is not valid.
+LANG_Validation[12];Entered address is not valid.
+LANG_Validation[13];Entered values are not equal.
+LANG_Validation[14];Old password does not match.
+LANG_Validation[15];Entered value has to be at most {0} characters long.
+LANG_Validation[16];Password strength is too low.
+LANG_Desc_Not_Empty;Description can not be empty, the maximum number of characters is 140.
+LANG_BirthDate_Validation_DayInvalid;Day is invalid.
+LANG_BirthDate_Validation_DayNull;Day cannot be null.
+LANG_BirthDate_Validation_MonthInvalid;Month is invalid.
+LANG_BirthDate_Validation_MonthNull;Month cannot be null.
+LANG_BirthDate_Validation_YearInvalid;Year is invalid.
+LANG_BirthDate_Validation_YearNull;Year cannot be null.
+LANG_BirthDate_Validation_Null;This fields are required.
+LANG_Today;today
+LANG_Tomorrow;tomorrow
+LANG_Yesterday;yesterday
+LANG_Group_Invite_AreYouSure;Send invitations.
+LANG_Group_Invite_AreYouSureInvite;Are you sure you would like to invite the selected people?
+LANG_Group_Invite_SentTitle;Invitations were sent.
+LANG_Group_Invite_SentContent;Invitations were sent to select people.
+LANG_Group_AutoAcceptInfo;This plan is open to anyone who would like to join.
+LANG_Dialog_Cancel;Cancel
+LANG_Dialog_Yes;Yes
+LANG_CustomValidator_Name;Please enter your first name.
+LANG_CustomValidator_Lastname;Please enter your last name.
+LANG_CustomValidator_Email;Please enter your email address.
+LANG_CustomValidator_Gender;Please enter your gender.
+LANG_CustomValidator_Date;Please enter your date of birth.
+LANG_CustomValidator_Title;Please enter a title.
+LANG_CustomValidator_Location;Please choose a location.
+LANG_CustomValidator_Description;Please enter a description.
+LANG_CustomValidator_DescriptionToLong;Your description is too long.
+LANG_CustomValidator_SelectDate;Please select a date.
+LANG_CustomValidator_FileToLarge;Your photo is larger than 10MB.
+LANG_CustomValidator_FileBadFormat;Your photo is an incorrect format.
+LANG_FileValidation[0];Request size is too big.
+LANG_FileValidation[1];File is too big. Max size is 10Mb.
+LANG_FileValidation[2];File has an incorrect type.
+LANG_FileValidation[3];Error occured while saving file.
+LANG_FileValidation[10];Error occured while deleting file.
+LANG_Profile_UserActivities;Activities
+LANG_Profile_UserAboutMe;More about me
+LANG_Profile_UserRundowns;Trip reports
+LANG_Profile_GroupCreated;Plans created
+LANG_Profile_GroupJoined;Plans joined
+LANG_habaEditor_fontSize;Font Size
+LANG_habaEditor_Huge;Huge
+LANG_habaEditor_Normal;Normal
+LANG_habaEditor_Small;Small
+LANG_habaEditor_Bold;Bold
+LANG_habaEditor_Italic;Italic
+LANG_habaEditor_Strikethrough;Strikethrough
+LANG_habaEditor_Underline;Underline
+LANG_habaEditor_Hyperlink;Hyperlink
+LANG_habaEditor_URL;URL
+LANG_habaEditor_Add;Add
+LANG_topFilter_Show;Show:
+LANG_topFilter_Groups;Plans
+LANG_topFilter_Rundowns;Trip reports
+LANG_topFilter_Happenings;Happenings
+LANG_textLogo.Groups;Gr
+LANG_textLogo.Rundowns;Rd
+LANG_textLogo.Happenings;Ha
+LANG_Rundown_Tags;TAGS
+LANG_Rundown_PostedBy;POSTED BY
+LANG_Rundown_PostedBy_SignIn;Sign in to view the creator.
+LANG_Rundown_ThisReportWas;THIS REPORT WAS
+LANG_Rundown_Creator;Creator
+LANG_Rundown_Comments;COMMENTS
+LANG_Rundown_Bookmark;Bookmark
+LANG_Rundown_Edit;Edit
+LANG_Rundown_TagUsers;Tag Members
+LANG_Rundown_TaggedUsers;Who was there
+LANG_Rundown_ShowAll;Show all
+LANG_Rundown_Hide;Hide
+LANG_Rundown_NoTagged;There are no tagged members
+LANG_Rundown_Cancel;Cancel
+LANG_Rundown_ShowAllPhotoComments;Show all comments
+LANG_ViewRundown_NoPosts;No comments yet!
+LANG_ViewRundown_LeaveComment;Leave a comment here!
+LANG_ViewRundown_DisplayAll;Display all comments
+LANG_Comment_Delete_Dialogs_Question;Do you want to delete the comment
+LANG_Account_PPTL;By clicking 'I agree' you agree to our %(terms)s and %(policy)s.
+LANG_Account_Terms;Terms of Service
+LANG_Account_Policy;Privacy Policy
+LANG_Footer_Socials;BE SOCIAL WITH US!
+LANG_livehelpLinkText;Report a Problem
+LANG_AddThis_Share_Error_Title;Error downloading sharing configuration
+LANG_AddThis_Share_Error_Content;It may be caused by your ISP settings.<br/>Try clearing browser cache and refreshing this page.<br/>Your sharing options are currently disabled.
+LANG_userSearch_filterTitle;Browse Profiles
+LANG_userSearch_filterClear;Clear
+LANG_userSearch_filterSearch;Search
+LANG_userSearch_filterShow;show advanced search >
+LANG_userSearch_filterHide;< hide advanced search
+LANG_userSearch_keywordLabel;Find people or keywords
+LANG_userSearch_keywordPlaceholder;John Doe, Silverton, 14ers, etc.
+LANG_userSearch_ageRangeLabel;Age range
+LANG_userSearch_ageToLabel;to
+LANG_userSearch_locationLabel;Location
+LANG_userSearch_locationPlaceholder;City, State
+LANG_userSearch_indicatorsTitle;Show only
+LANG_userSearch_onlyWithPhoto;Members with a profile photo
+LANG_userSearch_onlyWithInstagram;Members with Instagram
+LANG_userSearch_onlyWithTwitter;Members with Twitter
+LANG_userSearch_activitiesLabel;Show/Hide Activities
+LANG_userSearch_NoResult;Your criteria didn't match our records.
+LANG_userSearch_InitialMessage;Please use the filter above to view user profiles.
+LANG_usersStatusesMessage['USER_JOOINS_GOCIETY'];<b>%(firstName)s %(lastName)s</b> joined Gociety!
+LANG_usersStatusesMessage['USER_POSTS_A_RUNDOWN'];<b>%(firstName)s %(lastName)s</b> posted a trip report: %(itemName)s.
+LANG_usersStatusesMessage['USER_STARTS_A_GOCIETY'];<b>%(firstName)s %(lastName)s</b> plans to %(itemName)s.
+LANG_usersStatusesMessage['USER_JOINS_A_GOCIETY'];<b>%(firstName)s %(lastName)s</b> joined %(itemName)s.
+LANG_usersStatusesMessage['USER_VOTES_ON_RUNDOWN'];<b>%(firstName)s %(lastName)s</b> voted on %(itemName)s.
+LANG_usersStatusesMessage['USER_COMMENTS_ON_RUNDOWN'];<b>%(firstName)s %(lastName)s</b> commented on %(itemName)s.
+LANG_usersStatusesMessage['USER_EDITED_THEIR_PROFILE'];<b>%(firstName)s %(lastName)s</b> edited their profile.
+LANG_usersStatusesMessage['USER_HIGHFIVED_ANOTHER_USER'];<b>%(senderName)s %(senderSurname)s</b> gave a high five to %(receiverName)s %(receiverSurname)s.
+LANG_usersStatusesMessage_listEmpty;No activity found.
+LANG_Notif_Groups_Created;Plans Created
+LANG_Notif_Groups_Joined;Plans Joined
+LANG_Notif_Number_Contacts;Number of Contacts
+LANG_GroupConfirm_Title;By joining this Gociety plan, you agree to be bound by our %(termsLink)s and %(privacyLink)s
+LANG_GroupConfirm_P1;Show Up and Have fun!
+LANG_GroupConfirm_P1a;No extra credit for good intentions.
+LANG_GroupConfirm_P2;Communicate.
+LANG_GroupConfirm_P2a;Know when and where to meet people, and how to contact them.
+LANG_GroupConfirm_P3;Be Prepared. 
+LANG_GroupConfirm_P3a;Outdoor sports are inherently risky. Have a plan for injuries and emergencies. You agree that neither Gociety, LLC nor its owners, employees or members are responsible for what you do, nor for your safety, nor for the risks you choose to take. You agree that neither Gociety, LLC nor its owners, employees or members are liable if you get injured, killed, or lost. You’re on your own!
+LANG_GroupConfirm_P4;Be Safe.;
+LANG_GroupConfirm_P4a;Neither gociety plan creators nor Gociety, LLC, its owners, employees or members assume any responsibility or liability for your safety. Plan creators or other Gociety members may ask you to leave if you are not physically or otherwise prepared for the plan activity. Always put safety first.
+LANG_GroupConfirm_P5;Fully Read, Understand, and Agree to Our Terms of Service.
+LANG_GroupConfirm_P5a;Specifically section 8: “Your Interactions with Other Members”
+LANG_GroupConfirm_CancelButton;I don’t agree. I’m stayin’ home.
+LANG_GroupConfirm_OkButton;I agree. Count me in!
+LANG_GroupCreate_Terms;Terms of Service
+LANG_GroupCreate_Privacy;Privacy Policy
+LANG_GroupCreate_Title;By creating this Gociety Plan, you agree to be bound by our %(termsLink)s and %(privacyLink)s
+LANG_GroupCreate_Subtitle;You also agree to:
+LANG_GroupCreate_P2;Communicate.
+LANG_GroupCreate_P2a;Let everyone know where to meet you, and how to contact you
+LANG_GroupCreate_P3a;Outdoor sports are inherently risky. Have a plan for injuries and emergencies. You agree that neither Gociety, LLC, nor its owners, employees or members are responsible for your safety nor for the risks you choose to take. Neither Gociety, LLC, nor its owners, employees or members are liable if you get injured, killed, or lost. You’re on your own!
+LANG_GroupCreate_P4a;As a plan creator, neither you nor Gociety, LLC are responsible or liable for the actions or safety of anyone who joins your gociety plan. This is part of the Gociety Terms of Service that all users agree to. However, you should not encourage anyone to take unnecessary risk, or to do anything beyond their personal abilities. If someone is unfit or otherwise unprepared for an activity, you should ask them to leave, turn back, or go home. Always put safety first.
+LANG_Messages_pageTitle;Private messages
+LANG_Messages_Messages;Inbox
+LANG_Messages_NoMessages;There are no messages
+LANG_Messages_With;with
+LANG_Messages_WriteMessage;New message
+LANG_Messages_Delete;Delete
+LANG_Messages_ConvWith;Recipients
+LANG_Messages_Date;Date
+LANG_Messages_Title;Conversation title
+LANG_Messages_SendMessage;Send
+LANG_Messages_AddToConversation;Add users to conversation
+LANG_Messages_NoContactsToAdd;You have no contacts to talk to
+LANG_Messages_NoGroupsToAdd;There are no plans
+LANG_Messages_StartConversation;Write message
+LANG_Messages_Subject;Subject
+LANG_Messages_EnterConvTitle;Enter conversation title
+LANG_Messages_EnterConvTitle;Enter conversation title
+LANG_Messages_Message;Message
+LANG_Messages_NoContactsSelected;You have selected no contacts
+LANG_Messages_AddToConv;Add to conversation
+LANG_Messages_AddContactsToConv;Add contacts to conversation
+LANG_Messages_Conversation;Conversation
+LANG_Messages_RemoveFromConv;Remove from conversation
+LANG_Messages_RemoveContactsFromConv;Remove contacts from conversation
+LANG_Messages_selectAll;select/de-select all
+LANG_Messages_GroupQuestion;Have a question?
+LANG_Messages_MessageCreator;Ask here
+LANG_Messages_ContactsSelect;Contacts 
+LANG_Messages_GroupsSelect;plans
+LANG_Messages_StartGroupConversation;Message Plan
+LANG_Messages_Confirmation;Confirmation
+LANG_Messages_DeleteFeedQuestion;Are you sure you’d like to delete all of the messages from
+LANG_Messages_DeleteFeedsQuestion;Are you sure you want to delete the selected messages?
+LANG_Messages_BackToInbox;Back to inbox
+LANG_Messages_LeaveConversation;Leave conversation
+LANG_Messages_AddPeople;Add people
+LANG_Messages_LeaveConversationQuestion;Are you sure you would like to leave this conversation?
+LANG_Messages_ThisConversation;this conversation
+LANG_Messages_Me;Me
+LANG_StateSelector_ShowAdventures;show me adventures in
+LANG_USM2.contacts;Contacts
+LANG_USM2.groupMembers;Members
+LANG_USM2_NoUsers;There are no users on this list
+LANG_USM2_Title;Select users
+LANG_USM2_TagPeople;Who was there?
+LANG_USM2_HihfiveMembers;High five plan members
+LANG_SimpleList_ViewMore;view more
+LANG_HighFive_Content;Write a comment
+LANG_Profile_HighFives;High fives
+LANG_Profile_HighFiveReceived;High fives received
+LANG_Profile_HighFiveGiven;High fives given
+LANG_ListView_hiFiGiTitle;High fives given
+LANG_ListView_hiFiReTitle;High fives received
+LANG_ListView_GroupsCreatedTitle;Plans created
+LANG_ListView_GroupsJoinedTitle;Plans joined
+LANG_ListView_NoResult;No items found
+LANG_Profile_FullCompletion;Your profile is 100% complete!
+LANG_Profile_Completion;Your profile is only {0}% complete!
+LANG_Profile_Completion2;It looks like your account is not fully completed.
+LANG_Profile_Completion3;Fill in the following sections: 
+LANG_Profile_fields.name;First name
+LANG_Profile_fields.surname;Last name
+LANG_Profile_fields.birthDate;Date of Birth
+LANG_Profile_fields.email;Date of Birth
+LANG_Profile_fields.extendedData;The jam
+LANG_Profile_fields.gender;Gender
+LANG_Profile_fields.instagramUsername;Social networks: Instagram user name
+LANG_Profile_fields.photo;Profile photo
+LANG_Profile_fields.twitterUsername;Social networks: Twitter user name
+LANG_Profile_fields.localization;Location
+LANG_Profile_fields.sports;The details
+LANG_Upvote_Upvote;Upvote
+LANG_Upvote_Upvotes;Upvotes
+LANG_Upvote_Like;Like
+LANG_Upvote_Unlike;You like this
+LANG_Upvote_PeopleLikeThis;people like this photo
+LANG_Upvote_PersonLikesThis;person likes this photo
+LANG_Questions_QOTW;Question of the week
+LANG_Questions_NoQuestion;No question this week
+LANG_Questions_Answer;Answer
+LANG_Top5_Top5Photos;Top 5 Albums
+LANG_Top5_Top5users;Top 5 Members
+LANG_MassHighFive_CantSendTitle;Incorrect data
+LANG_MassHighFive_CantSend;Please select users and write a comment
+LANG_MassHighFive_SuccessTitle;Success
+LANG_MassHighFive_Success;High fives added
+LANG_MassHighFive_FailureTitle;Failure
+LANG_MassHighFive_Failure;An error occured while adding high fives
+LANG_Group_PreviewInfo;Plan preview
+LANG_Discovery_All;All
+LANG_Preview_Error;An Error occured while creating preview
+LANG_Preview_ErrorText;Check if Plan edit form is still opened
+LANG_Preview_PreviewMode;Preview mode
+LANG_Preview_PreviewModeText;Close preview tab to go back to edit form
+LANG_Preview_PreviewModeWarning;You are in preview mode. If you close this window all changes won't be saved
+LANG_ReferralProgram_ReferFriends;Refer friends ({0})
+LANG_ReferralProgram_GetGocietySwag;& get Gociety swag!
+LANG_ReferralProgram_DaysLeft;Days Left
+LANG_ReferralProgram_FreindsEmail;Friend's email(s)
+LANG_ReferralProgram_OfferExpires;Offer expires
+LANG_Notify_Facebook_Friends;Invite Facebook Friends!
+LANG_Enter_Promo_Code;Enter promo code (optional)
+LANG_Promo_Code_Doesnt_Exist;Promo code doesn't exist
+LANG_PaidGroup_Booked;booked!;
+LANG_PaidGroup_BookAdventure;Book my adventure!
+LANG_PaidGroup_SoldOut;Sold out!
+LANG_PaidGroup_Success;Conratulations
+LANG_PaidGroup_SuccessText;You just booked your adventure
+LANG_PaidGroup_Failure;Something went wrong!
+LANG_PaidGroup_FailureText;Your payment hasn't been accepted.
+LANG_MainMenu_Jobs;Jobs
+LANG_MainMenu_AboutUs;About us
+LANG_MainMenu_Blog;Blog
+LANG_MainMenu_HavingIssues;Having issues?
+LANG_MainMenu_TermsOfService;Terms of service
+LANG_MainMenu_PrivacyPolicy;Privacy policy
+LANG_MainMenu_AccountSettings;Account settings
+LANG_MainMenu_ContactUs;Contact us
+LANG_Menu_DiscoveryFeedText;Find adventures & people
+LANG_Menu_DiscoveryRundownsText; Explore & share ideas
+LANG_Discovery_LastActivity;Recent activity
+LANG_Back_To;Back to
+LANG_SignUpModal_BecomeMember;Become a member;
+LANG_SignUpModal_text;to start or join adventures, view profiles, message other members and more!
+LANG_SignUpModal_AlreadyMember;Already a member?
+LANG_SignUpModal_LoginHere;Login here
+LANG_VoteNames.HELPFUL;Awesome
+LANG_VoteNames.CREATIVE;Informative
+LANG_VoteNames.FUNNY;I wanna go!
+LANG_ContactUs_Error_Title;Error
+LANG_ContactUs_Error_Message;There was a problem with sending your message.\nPlease try again later
+LANG_ContactUs_Success_Title;Success
+LANG_ContactUs_Success_Message;Your message was sucessfully sent to Gociety
+LANG_Crop;Crop
+LANG_CropImage;Crop image
+LANG_StripeModal_CardNumber;Card number
+LANG_StripeModal_Cvc;CVC
+LANG_StripeModal_ExpirationMM;MM
+LANG_StripeModal_ExpirationYYYY;YYYY
+LANG_StripeModal_Name;Name
+LANG_StripeModal_Address1;Address (line 1)
+LANG_StripeModal_Address2;Address (line 2)
+LANG_StripeModal_City;City
+LANG_StripeModal_State;State
+LANG_StripeModal_ZipCode;Zip code
+LANG_StripeModal_Country;Country
+LANG_StripeModal_Pay;Pay
+LANG_TaggerHelper_NoUsers;Found no matching users
+LANG_Map_SelectLocation;Select location
+LANG_Map_SelectLocationOnMap;Or select location on map
+LANG_Map_UserSelectModal3_StartTyping;Start typing name or surname

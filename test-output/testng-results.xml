@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Langs from: languages_desktop.csv]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51232" started-at="2015-02-17T13:15:58Z" finished-at="2015-02-17T13:16:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51232" started-at="2015-02-17T13:15:58Z" finished-at="2015-02-17T13:16:49Z">
+      <class name="testCase.AutoAcceptTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCase.AutoAcceptTest@138b4ed]" name="beforeClass" is-config="true" duration-ms="23312" started-at="2015-02-17T14:15:58Z" finished-at="2015-02-17T14:16:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Langs from: languages_desktop.csv]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test1_whenAutoAcceptIsChecked()[pri:0, instance:testCase.AutoAcceptTest@138b4ed]" name="test1_whenAutoAcceptIsChecked" duration-ms="27896" started-at="2015-02-17T14:16:22Z" finished-at="2015-02-17T14:16:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1_whenAutoAcceptIsChecked -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCase.AutoAcceptTest@138b4ed]" name="afterClass" is-config="true" duration-ms="13" started-at="2015-02-17T14:16:49Z" finished-at="2015-02-17T14:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCase.AutoAcceptTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
