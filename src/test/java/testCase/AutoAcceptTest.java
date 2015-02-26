@@ -1,118 +1,70 @@
 package testCase;
 
 import langs.Langs;
+import main.CreatorService;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.AfterClass;
 
 import pages.GocietyMainPage;
-import pages.PlanViewPage;
-import prep.CreatePlan;
-import prep.Login;
 import Ent.Category;
 import Ent.GocietyService;
 import Ent.Paces;
 
-public class AutoAcceptTest {
-
-	private static final String DATE = "02/19/2015 02:58 PM";
-	boolean autoAccept = true;
-	boolean autoAcceptUnchecked = false;
-	WebDriver driver;
-	Login login;
-	CreatePlan createPlan;
-	CreatorService createNewPlanTest;
-	PlanViewPage planViewPage;
-
-	@BeforeClass
-	public void beforeClass() {
-		driver = new FirefoxDriver();
-		createNewPlanTest = new CreatorService(driver);
-		planViewPage = new PlanViewPage(driver);
-		createNewPlanTest.strtUp(driver);
-		// login= new Login(driver);
-		// createPlan = new CreatePlan(driver);
-	}
-
-	@Test
-	public void test1_whenAutoAcceptIsChecked() throws InterruptedException {
-		passed(autoAccept);
-		Assert.assertEquals(createNewPlanTest.getPlanViewPage()
+public class AutoAcceptTest extends CreatorService{
+	
+	@Test  
+	public void t() throws InterruptedException{
+		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		TITLE="test Time";
+		LOCATION="katowice";
+		
+		setCATEGORY(Category.CLIMBING.toString());
+		setPACES(Paces.SOCIAL.toString());
+		setDESCRIPTION("test kasdkbfvbdkaghb");
+		setAutoAccept(true);
+        setLOGIN("robert+10@gociety.com");
+		setPASSWORD("tajne123");
+		setTIME("24:59");
+		setDATE("aaa");
+		
+		
+	    createPlanAndJoin();		    
+	    Assert.assertEquals(getPlanViewPage()
 				.getLeaveButton().getText(), Langs.getLang("LANG_Btn_Leave")
 				.toUpperCase());
-	}
-
+	
+	} 
 	@Test
-	public void whenAutoAcceptUnchecked() throws InterruptedException {
-		passed(autoAcceptUnchecked);
-		Assert.assertEquals(createNewPlanTest.getPlanViewPage()
-				.getPendingButton().getText(), Langs
-				.getLang("LANG_Btn_Pending").toUpperCase());
+	public void createNewPlan_WithoutDate_ShouldReturn() throws InterruptedException{
+		setTITLE("withoutDate");
+		setLOCATION("katowice");
+		setDATE(null);
+		
+		setAutoAccept(true);
+		setCATEGORY(Category.FITNES.toString());
+
+		createNewPlan();
+		//getPlanPage.getConfirmDialogYes().click();
+		Assert.assertTrue(getPlanPage().getInvalidFormData().isEnabled());
 	}
+	@Test
+	public void createNewPlan_Correct() throws InterruptedException{
+		setTITLE("aaa");
+		setLOCATION("katowice");
+		setDATE("02/19/2015 02:58 PM");
+		setAutoAccept(true);
+		setCATEGORY(Category.FITNES.toString());
 
-	@AfterClass
-	public void afterClass() {
-		driver.close();
-	}
-
-	public void passed(boolean autoAccept) throws InterruptedException {
-		createNewPlanTest.createNewPlan("auto ", "katowice", "asdfdsaf",
-				Category.CLIMBING.toString(), Paces.NO_BS.toString(), DATE, autoAccept,
-				false, "", "");
-
-		loginAsAnotherUser();
-		for (int sec = 0; sec <= 100; sec++) {
-			if (createNewPlanTest.getMainPage().getPlans().isDisplayed()) {
-				createNewPlanTest.getMainPage().getPlans().click();
-				break;
-			} else {
-				Thread.sleep(1000);
-			}
-		}
-
-		for (int sec = 0; sec <= 100; sec++) {
-			if (createNewPlanTest.getMainPage().getLatestAddedPlan()
-					.isDisplayed()) {
-				createNewPlanTest.getMainPage().getLatestAddedPlan().click();
-				break;
-			} else {
-				Thread.sleep(1000);
-			}
-		}
-		System.out.println(createNewPlanTest.getPlanViewPage().getJoinButton()
-				.getText());
-		createNewPlanTest.getPlanViewPage().getJoinButton().click();
-		for (int sec = 0; sec <= 100; sec++) {
-			if (createNewPlanTest.getPlanViewPage().getConfirmYesButton()
-					.isDisplayed()) {
-				createNewPlanTest.getPlanViewPage().getConfirmYesButton()
-						.click();
-				System.out.println(createNewPlanTest.getPlanViewPage()
-						.getJoinButton().getText());
-
-				// System.out.println(createNewPlanTest.getPlanViewPage().getPendingButton().getText());
-				break;
-			} else {
-				Thread.sleep(1000);
-			}
-		}
-	}
-
-	public void loginAsAnotherUser() {
-		createNewPlanTest.logOut();
-		createNewPlanTest.loginAndGoToMainPage("robert+4@gociety.com",
-				"tajne123");
+		createNewPlan();
+	   
+		getPlanPage().getConfirmDialogYes().click();
 	}
 	
-	/*public AutoAcceptTest(WebDriver driver){
+	@Test	
+    public void testClasses(){
+		System.out.println(getMainPage().getNavMenu().getText());
 		
-		this.driver=driver;
-		PageFactory.initElements(driver, this);
-		
-	}*/
+	}
 }

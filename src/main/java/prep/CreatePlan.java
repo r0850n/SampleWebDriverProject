@@ -1,5 +1,7 @@
 package prep;
 
+import main.MainC;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.internal.NewProfileExtensionConnection;
 import org.openqa.selenium.support.PageFactory;
@@ -23,6 +25,7 @@ public class CreatePlan {
 	protected GocietyMainPage mainPage;
 	private MyPlanPage planPage;
 	private PlanViewPage planViewPage;
+	MainC mainC;
 	private boolean save=true;
 	
 	
@@ -135,5 +138,5 @@ public class CreatePlan {
 		
 		PageFactory.initElements(driver, this);
 	}
-
+   
 }

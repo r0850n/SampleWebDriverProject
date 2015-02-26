@@ -1,5 +1,7 @@
 package prep;
 
+import main.CreatorService;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -7,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import pages.GocietyLoginPage;
 import pages.GocietyMainPage;
 import pages.UserProfilePage;
-import testCase.CreatorService;
 import atu.testng.reports.ATUReports;
 import atu.testng.reports.logging.LogAs;
 import atu.testng.selenium.reports.CaptureScreen;

@@ -1,9 +1,14 @@
 package pages;
 
 import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.internal.Locatable;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -69,12 +74,58 @@ public class GocietyMainPage {
 	@FindBy(xpath="/html/body/div[6]/div[1]/div[2]/div/div/div[2]/div[2]/div[2]/form/div[2]/select")
 	private WebElement sortBy;
 	
-	@FindBy(id="makePlanBtn")
+	@FindBy(xpath="//*[@id='sideMenu']/a")
 	private WebElement makePlanButton;
 	
 	@FindBy(css="div.dataB.wrapLetter")
 	private WebElement latestAddedPlan;
 	
+	@FindBy(id="userStatuses")
+	private  WebElement scrollDiv;
+	
+	@FindBy(xpath="//*[@id='userStatusesList']/a[12]")
+	private WebElement el;
+
+	
+	public WebElement getEl() {
+		return el;
+	}
+	public WebElement getScrollDiv() {
+		return scrollDiv;
+	}
+	
+	public List<WebElement> getScrolldiv(){
+		
+		List<WebElement> e= scrollDiv.findElements(By.tagName("a"));
+		return e;
+		
+		
+	}
+	public  void scrollElementIntoView(WebDriver driver, WebElement element) throws InterruptedException {
+	
+      ((JavascriptExecutor)driver).executeScript("document.getElementById('userStatuses').scrollBy('','250');" ,element);	
+
+	}
+	
+	public void scrollTo(WebElement element){
+		
+		Coordinates c= ((Locatable)element).getCoordinates();
+		c.inViewPort();
+	}
+	
+	public WebElement getElementFromRecent(String text){
+		
+		for (WebElement e : getScrolldiv()) {
+			
+			if(e.getText().contains(text))
+				return e;
+		}
+		
+		return null;
+		
+		
+	}
+
 	public WebElement getLatestAddedPlan() {
 		
 		return latestAddedPlan;
@@ -103,6 +154,27 @@ public class GocietyMainPage {
 	public WebElement getMyGociety() {
 		return myGociety;
 	}
+	
+	public List<WebElement> getMyGocietyOptions(){ 
+		
+		List<WebElement> element= myGociety.findElements(By.tagName("a"));
+		return null;
+	
+	}
+	
+	public WebElement getMyGocietyOption(String o){
+	  	
+       for (WebElement element : getMyGocietyOptions()) {
+            
+			if(element.getText().equals(o)){
+				return element;
+			}
+			
+		}	
+		return null;
+		
+		
+	}
 
 	public WebElement getInbox() {
 		return inbox;
@@ -117,7 +189,7 @@ public class GocietyMainPage {
 	}
 
 	public WebElement getPlans() {
-		driver.get(MAIN_PAGE);
+		//driver.get(MAIN_PAGE);
 		return plans;
 	}
 
@@ -164,6 +236,7 @@ public class GocietyMainPage {
 	private WebDriver driver;
 
 	public GocietyMainPage(WebDriver driver) {
+		super();
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

@@ -16,22 +16,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import Ent.User;
 
 public class PageEditProfile {
-	private final static String LOGIN_PAGE = "http://desktop.it-sandbox.gociety.com/#!pageEditProfile";
+	private final static String LOGIN_PAGE = "http://desktop.it-sandbox.gociety.com/#!pageLogin";
 	private WebDriver driver;
 
+	@FindBy(xpath="")
+	private WebElement signInButton;
+	
 	@FindBy(xpath = "//*[@id='createAccountButton']")
 	private WebElement createAcountButton;
 
-	public WebElement getCreateAcountButton() {
-		return createAcountButton;
-	}
-
 	@FindBy(xpath = "/html/body/div[7]/div[1]/div[2]/div[1]/div/div/div[2]/div/a[2]")
 	private WebElement singinButton;
-
-	public WebElement getSinginButton() {
-		return singinButton;
-	}
 
 	@FindBy(id = "editProfile_email")
 	private WebElement imputEmailArea;
@@ -44,7 +39,65 @@ public class PageEditProfile {
 
 	@FindBy(id = "editProfile_passNewRep")
 	private WebElement imputPasswordAreaRepeat;
+	
+	@FindBy(id = "editProfile_name")
+	private WebElement imputFirstName;
 
+	@FindBy(id = "editProfile_surname")
+	private WebElement imputLastName;
+
+	//@FindBy(xpath = "/html/body/div[26]/div[1]/div[2]/div/div/div[1]/div/div[1]/form[1]/div/div[5]/div[1]/a/div/b")
+	@FindBy(css = ".select2-choice")
+	private WebElement imputLocation;
+
+	//@FindBy(css = "html body#body.fbinitialized div#select2-drop.select2-drop.select2-with-searchbox.select2-drop-active div.select2-search input.select2-input")
+	@FindBy(xpath = "//*[@id='select2-drop']/div/input")
+	private WebElement imputLocationArea;
+
+	@FindBy(xpath = "//*[@id='pageLogin_createAccountForm']/div[5]/span/input")
+	private WebElement agreeButton;
+
+	@FindBy(xpath = "//*[@id='submiteditProfile_step1Form']")
+	private WebElement sendButton;
+
+	// @FindBy(xpath= "/html/body/div[51]/ul/li")
+	@FindBy(id = "select2-drop")
+	private WebElement searchResult;
+	
+	@FindBy(className = "firstNameTopMenu")
+	private WebElement welcomText;
+	
+	
+	@FindBy(xpath="//*[@id='pageShowProfile']/div[1]/div[2]/div/div/div[1]/table/tbody/tr[2]/td/div[1]/div[2]/div[1]/a")
+    private WebElement editProfileButton;
+
+	@FindBy(id="submiteditProfile_step1Form")
+	private WebElement nextButtonStep1;
+	
+	@FindBy(id="submitEditProfile_step2")
+	private WebElement nextButtonStep2;
+	
+	@FindBy(xpath="//*[@id='editProfile_step3Form']/input")
+	private WebElement finischedButton;
+	
+	public WebElement getWelcomText() {
+		return welcomText;
+	}
+	public WebElement getFinischedButton() {
+		return finischedButton;
+	}
+	public WebElement getNextButtonStep2() {
+		return nextButtonStep2;
+	}
+	public WebElement getNextButtonStep1() {
+		return nextButtonStep1;
+	}
+	public WebElement getSinginButton() {
+		return singinButton;
+	}
+	public WebElement getCreateAcountButton() {
+		return createAcountButton;
+	}
 	public WebElement getImputPasswordAreaRepeat() {
 		return imputPasswordAreaRepeat;
 	}
@@ -72,27 +125,10 @@ public class PageEditProfile {
 
 	}
 
-	@FindBy(id = "editProfile_name")
-	private WebElement imputFirstName;
-
-	@FindBy(id = "editProfile_surname")
-	private WebElement imputLastName;
-
-	@FindBy(xpath = "/html/body/div[26]/div[1]/div[2]/div/div/div[1]/div/div[1]/form[1]/div/div[5]/div[1]/a/div/b")
-	private WebElement imputLocation;
-
-	@FindBy(css = "html body#body.fbinitialized div#select2-drop.select2-drop.select2-with-searchbox.select2-drop-active div.select2-search input.select2-input")
-	private WebElement imputLocationArea;
-
-	@FindBy(xpath = "/html/body/div[26]/div[1]/div[2]/div/div/div[1]/div/div[1]/form[2]/div[2]/span/input")
-	private WebElement agreeButton;
-
-	@FindBy(css = "#submiteditProfile_step1Form")
-	private WebElement sendButton;
-
-	// @FindBy(xpath= "/html/body/div[51]/ul/li")
-	@FindBy(id = "select2-drop")
-	private WebElement searchResult;
+	
+	public WebElement getEditProfileButton() {
+		return editProfileButton;
+	}
 
 	public WebElement getSearchResult() {
 		return searchResult;
@@ -129,7 +165,7 @@ public class PageEditProfile {
 		return imputLastName;
 	}
 
-	public PageEditProfile typeEmail(String email) {
+	public PageEditProfile typeEmail(String email) {		
 		getImputEmailArea().sendKeys(email);
 		return this;
 	}
@@ -200,28 +236,34 @@ public class PageEditProfile {
 		return el;
 	}
 
-	public GocietyHomePage signInAs(String email, String password,
-			String firstName, String lastName, String location, WebDriver driver)
+	public void signInAs(String firstName,String lastName, String location,String email, String password,
+			  WebDriver driver)
 			throws Exception {
-
-		getCreateAcountButton().click();
-		typeEmail(email);
-		typePassword(password);
-
-		// typePasswordRep(password,driver);
-		typeFirstName(firstName);
-		typeLastName(lastName);
-		getImputLocation().click();
-		typeLocation(location);
+         driver.get(LOGIN_PAGE);
+		//getCreateAcountButton().click();
 		Thread.sleep(1000);
-		// getSearchResult().click();
-		localizationSearchResult().get(0).click();
-
+         typeFirstName(firstName);
+         Thread.sleep(1000); 
+         typeLastName(lastName);
+         
+         getImputLocation().click();
+ 		typeLocation(location);
+ 		Thread.sleep(1000);
+ 		// getSearchResult().click();
+ 		localizationSearchResult().get(0).click();
+ 		
+ 		
+		  typeEmail(email);
+		  typePassword(password);
+		// typePasswordRep(password,driver);
+		
+		
+		
 		getAgreeButton().click();
 		// Thread.sleep(10000);
 		getSendButton().click();
-
-		return submitSignIn();
+        Thread.sleep(1000);
+		
 	}
 
 	public void LoginAs() throws Exception {
@@ -231,6 +273,30 @@ public class PageEditProfile {
 			signInAs(s.getEmail(), s.getPassword(), s.getFirstName(),
 					s.getLastName(), s.getLocalization(), driver);
 
-		}
+		} 
+	}  
+	public void signInAs(User user) throws Exception {
+			signInAs(user.getFirstName(), user.getLastName(), user.getLocalization(), user.getEmail(), user.getPassword(), driver);	
+	} 
+	
+	public void changeName(String firstName,String lastName) throws InterruptedException{
+		
+		GocietyMainPage gocietyMainPage= new GocietyMainPage(driver);
+		gocietyMainPage.getWelcomText().click();
+		System.out.println(getEditProfileButton().isDisplayed());
+		getEditProfileButton().click();
+		System.out.println("edytuje!!!");
+		Thread.sleep(1000);
+		getImputFirstName().clear();
+		getImputFirstName().click();
+		
+		getImputFirstName().sendKeys(firstName);
+		getImputLastName().clear();
+		Thread.sleep(1000);
+		getImputLastName().sendKeys(lastName);
+		
+    	getNextButtonStep1().click();
+		getNextButtonStep2().click();
+		getFinischedButton().click();
 	}
 }

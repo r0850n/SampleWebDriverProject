@@ -9,6 +9,11 @@ public class PlanViewPage {
 
 	private WebDriver driver;
 
+	@FindBy(css=".bgEditBtn")
+	private WebElement editButton;
+	
+	
+
 	@FindBy(css="html body#body.fbinitialized div#pageViewGroup.app-page.withMenuPanel.active-page div.contentWrapper div.content div.container div.contentContainer div.leftCol div.viewGroupControlPanel a.joiner.joinBTN")
 	private WebElement joinButton;
 	
@@ -21,6 +26,9 @@ public class PlanViewPage {
 	@FindBy(css="html body#body.fbinitialized.wysihtml5-supported div#pageViewGroup.app-page.withMenuPanel.active-page div.contentWrapper div.content div.container div.contentContainer div.leftCol div.viewGroupControlPanel a.joiner.pendingBTN.active")
 	private WebElement pendingButton;
 	
+	public WebElement getEditButton() {
+		return editButton;
+	}
 	public WebElement getPendingButton() {
 		return pendingButton;
 	}
