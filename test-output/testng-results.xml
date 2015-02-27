@@ -4,25 +4,37 @@
     <line>
       <![CDATA[Langs from: languages_desktop.csv]]>
     </line>
+    <line>
+      <![CDATA[Langs from: email.csv]]>
+    </line>
+    <line>
+      <![CDATA[Langs from: pass.csv]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70152" started-at="2015-02-26T14:20:27Z" finished-at="2015-02-26T14:21:38Z">
+  <suite name="Default suite" duration-ms="54255" started-at="2015-02-27T11:25:26Z" finished-at="2015-02-27T11:26:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70152" started-at="2015-02-26T14:20:27Z" finished-at="2015-02-26T14:21:38Z">
-      <class name="testCase.CreateAcountTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCase.CreateAcountTest@8fff06]" name="beforeClass" is-config="true" duration-ms="29990" started-at="2015-02-26T15:20:27Z" finished-at="2015-02-26T15:20:57Z">
+    <test name="Default test" duration-ms="54255" started-at="2015-02-27T11:25:26Z" finished-at="2015-02-27T11:26:20Z">
+      <class name="testCase.LanguagesTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCase.LanguagesTest@1fee11]" name="beforeClass" is-config="true" duration-ms="29205" started-at="2015-02-27T12:25:26Z" finished-at="2015-02-27T12:25:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tesEditAcount()[pri:0, instance:testCase.CreateAcountTest@8fff06]" name="tesEditAcount" duration-ms="39103" started-at="2015-02-26T15:20:57Z" finished-at="2015-02-26T15:21:37Z">
+        <test-method status="PASS" signature="createNewPlan_WithoutDate_ShouldReturn()[pri:0, instance:testCase.LanguagesTest@1fee11]" name="createNewPlan_WithoutDate_ShouldReturn" duration-ms="24095" started-at="2015-02-27T12:25:55Z" finished-at="2015-02-27T12:26:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[Langs from: email.csv]]>
+            </line>
+            <line>
+              <![CDATA[Langs from: pass.csv]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- tesEditAcount -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCase.CreateAcountTest@8fff06]" name="afterClass" is-config="true" duration-ms="1037" started-at="2015-02-26T15:21:37Z" finished-at="2015-02-26T15:21:38Z">
+        </test-method> <!-- createNewPlan_WithoutDate_ShouldReturn -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCase.LanguagesTest@1fee11]" name="afterClass" is-config="true" duration-ms="936" started-at="2015-02-27T12:26:19Z" finished-at="2015-02-27T12:26:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testCase.CreateAcountTest -->
+      </class> <!-- testCase.LanguagesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

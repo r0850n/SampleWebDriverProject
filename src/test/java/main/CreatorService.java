@@ -2,7 +2,9 @@ package main;
 
 import java.util.concurrent.TimeUnit;
 
+import langs.Acounts_Email;
 import langs.Langs;
+import langs.Pass;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -99,8 +101,8 @@ public class CreatorService {
 	private static final String VALID_DATE = Langs.getLang("LANG_CustomValidator_SelectDate");
 	private static final String ERROR_INVLID = Langs.getLang("LANG_Validation_Error");
 	private static String TIME = "aaa";
-	private String PASSWORD = "tajne123";
-	private String LOGIN = "robert+3@gociety.com";
+	private String PASSWORD = Pass.getPass("RG_pass");
+	private String LOGIN = Acounts_Email.getEmail("RG_Email_3");
 	private String CATEGORY = Category.CLIMBING.toString();
 	private String PACES = Paces.ADVENTURING.toString();
 	public static String DESCRIPTION = "asdfdsaf";

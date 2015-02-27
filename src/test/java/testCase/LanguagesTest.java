@@ -1,6 +1,8 @@
 package testCase;
 
+import langs.Acounts_Email;
 import langs.Langs;
+import langs.Pass;
 import main.CreatorService;
 
 import org.openqa.selenium.support.PageFactory;
@@ -16,7 +18,7 @@ public class LanguagesTest extends CreatorService{
 	
 	@Test  
 	public void testLangButtonLeave() throws InterruptedException{
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		TITLE="test Time";
 		LOCATION="katowice";
 		
@@ -24,8 +26,8 @@ public class LanguagesTest extends CreatorService{
 		setPACES(Paces.SOCIAL.toString());
 		setDESCRIPTION("test kasdkbfvbdkaghb");
 		setAutoAccept(true);
-        setLOGIN("robert+10@gociety.com");
-		setPASSWORD("tajne123");
+        setLOGIN(Acounts_Email.getEmail("RG_Email_10"));
+		setPASSWORD(Pass.getPass("RG_pass"));
 		setTIME("24:59");
 		setDATE("aaa");
 		
@@ -35,10 +37,11 @@ public class LanguagesTest extends CreatorService{
 				.getLeaveButton().getText(), Langs.getLang("LANG_Btn_Leave")
 				.toUpperCase());
 	
-	} 
+	}  
 	@Test
 	public void createNewPlan_WithoutDate_ShouldReturn() throws InterruptedException{
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		setTITLE("withoutDate");
 		setLOCATION("katowice");
 		setDATE(null);

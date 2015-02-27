@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Penny\AppData\Local\Temp\testng-eclipse-253107566\testng-customsuite.xml</span>
+                    <span>C:\Users\Penny\AppData\Local\Temp\testng-eclipse-788198436\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.CreateAcountTest" hash-for-method="tesEditAcount">tesEditAcount</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.LanguagesTest" hash-for-method="createNewPlan_WithoutDate_ShouldReturn">createNewPlan_WithoutDate_ShouldReturn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +119,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCase.CreateAcountTest</span>
+              <span class="class-name">testCase.LanguagesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tesEditAcount">
-                  </a> <!-- tesEditAcount -->
-                  <span class="method-name">tesEditAcount</span>
+                  <a name="createNewPlan_WithoutDate_ShouldReturn">
+                  </a> <!-- createNewPlan_WithoutDate_ShouldReturn -->
+                  <span class="method-name">createNewPlan_WithoutDate_ShouldReturn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +134,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Penny\AppData\Local\Temp\testng-eclipse-253107566\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Penny\AppData\Local\Temp\testng-eclipse-788198436\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,11 +143,11 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCase.CreateAcountTest&quot;&gt;
+      &lt;class name=&quot;testCase.LanguagesTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;tesEditAcount&quot;/&gt;
+          &lt;include name=&quot;createNewPlan_WithoutDate_ShouldReturn&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCase.CreateAcountTest --&gt;
+      &lt;/class&gt; &lt;!-- testCase.LanguagesTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tesEditAcount')
-data.setCell(0, 2, 'testCase.CreateAcountTest')
-data.setCell(0, 3, 39103);
+data.setCell(0, 1, 'createNewPlan_WithoutDate_ShouldReturn')
+data.setCell(0, 2, 'testCase.LanguagesTest')
+data.setCell(0, 3, 24095);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -207,15 +207,22 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewPlan_WithoutDate_ShouldReturn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Langs from: email.csv</span>
+                <span class="reporter-method-output">Langs from: pass.csv</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCase.CreateAcountTest</span>
+              <span class="ignored-class-name">testCase.LanguagesTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">whenYouCreateNewPlanWithoutTitleAndLocation_ShouldReturn</span>
                 <br/>
@@ -225,15 +232,13 @@ return data;
                 <br/>
                 <span class="ignored-method-name">whenYouCreateNewPlanWithoutTitlLocationAndDescription_ShouldReturn</span>
                 <br/>
-                <span class="ignored-method-name">creatPlanWithGpsLocation</span>
-                <br/>
-                <span class="ignored-method-name">createNewAcount</span>
-                <br/>
                 <span class="ignored-method-name">previewCreatePlanWithCorrectData</span>
                 <br/>
-                <span class="ignored-method-name">createNewPlan_WithoutDate_ShouldReturn</span>
+                <span class="ignored-method-name">testClasses</span>
                 <br/>
-                <span class="ignored-method-name">createPlan</span>
+                <span class="ignored-method-name">testLangButtonLeave</span>
+                <br/>
+                <span class="ignored-method-name">createNewPlan_Correct</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -245,18 +250,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCase.CreateAcountTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCase.LanguagesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tesEditAcount</span>
-                <span class="method-start">29990 ms</span>
+                <span class="method-name">createNewPlan_WithoutDate_ShouldReturn</span>
+                <span class="method-start">29205 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">69096 ms</span>
+                <span class="method-start">53302 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

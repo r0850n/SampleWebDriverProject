@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 import pages.MyPlanPage;
 import Ent.Category;
 import Ent.Paces;
+import langs.Acounts_Email;
+import langs.Pass;
 import main.CreatorService;
 
 public class CreateNewPlanTest extends CreatorService {
@@ -14,7 +16,7 @@ public class CreateNewPlanTest extends CreatorService {
 	@Test      
 	public void testCreate() throws InterruptedException{
 		
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		
 		MyPlanPage a= getPlanPage();
 		
@@ -37,8 +39,7 @@ public class CreateNewPlanTest extends CreatorService {
 	@Test 
 	public void test() throws InterruptedException{
 		
-        loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
-		
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		MyPlanPage a= getPlanPage();
 		
 		a.setTITLE("test set time ");		
@@ -64,7 +65,7 @@ public class CreateNewPlanTest extends CreatorService {
 	
 	@Test
 	public void t(){
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		
 	}
 	

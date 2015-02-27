@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testCase.CreateAcountTest">
+      <class name="testCase.LanguagesTest">
         <methods>
           <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="tesEditAcount"/>
+          <include name="createNewPlan_WithoutDate_ShouldReturn"/>
         </methods>
-      </class> <!-- testCase.CreateAcountTest -->
+      </class> <!-- testCase.LanguagesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

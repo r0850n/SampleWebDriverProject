@@ -3,6 +3,8 @@ package testCase;
 import org.testng.annotations.Test;
 
 import pages.GocietyMainPage;
+import langs.Acounts_Email;
+import langs.Pass;
 import main.CreatorService;
 
 public class ScrollElementTest extends CreatorService {
@@ -12,7 +14,7 @@ public class ScrollElementTest extends CreatorService {
 	@Test 
 	public void test1(){
 		
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		
 		GocietyMainPage mp= getMainPage(); 
 		 

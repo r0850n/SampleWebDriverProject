@@ -1,5 +1,7 @@
 package gociety.pages;
 
+import langs.Acounts_Email;
+import langs.Pass;
 import main.CreatorService;
 
 import org.openqa.selenium.Keys;
@@ -17,7 +19,7 @@ public class DiscoveryFeedPageTest extends CreatorService {
   @Test     
   public void f() throws InterruptedException {
 	
-	   loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+	  loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 	   
 	   DiscoveryFeedPage discoveryFeed = getDiscoveryFeedPage();
 	

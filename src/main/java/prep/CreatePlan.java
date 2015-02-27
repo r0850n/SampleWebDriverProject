@@ -1,5 +1,7 @@
 package prep;
 
+import langs.Acounts_Email;
+import langs.Pass;
 import main.MainC;
 
 import org.openqa.selenium.WebDriver;
@@ -36,7 +38,7 @@ public class CreatePlan {
 		
 		driver.get("http://desktop.it-sandbox.gociety.com/#!pageLogin");
 		loginPage= new GocietyLoginPage(driver);
-		loginPage.loginAs("robert+3@gociety.com", "tajne123");
+		loginPage.loginAs(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		
 		driver.get("http://desktop.it-sandbox.gociety.com/#!pageMain");
 		mainPage = new GocietyMainPage(driver);

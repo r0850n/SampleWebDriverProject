@@ -10,6 +10,7 @@ import pages.MyPlanPage;
 import Ent.Category;
 import Ent.Paces;
 import Ent.User;
+import langs.Acounts_Email;
 import main.CreatorService;
 
 public class CreateAcountTest extends CreatorService {
@@ -91,6 +92,13 @@ public class CreateAcountTest extends CreatorService {
 	// loginAsAnotherUser(newUserLogin, newUserPassword);
 	// loginAndGoToMainPage(newUserLogin, newUserPassword);
 	// createPlan();
+	}
+	
+	@Test 
+	public void passtest(){
+		
+		System.out.println(Acounts_Email.getEmail("RG_pass"));
+		
 	}
 } 
   

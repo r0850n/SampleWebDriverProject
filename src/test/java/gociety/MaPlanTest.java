@@ -54,6 +54,6 @@ public class MaPlanTest {
 		
 		wd.get("http://desktop.it-sandbox.gociety.com/#!pageLogin");
 		loginPage = new GocietyLoginPage(wd);
-		loginPage.loginAs("robert.goldyn@o2.pl", "tajne123");
+		loginPage.loginAs("", "");
 	}
 }

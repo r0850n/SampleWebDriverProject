@@ -106,8 +106,8 @@ public class MainC extends CreatorService {
 
 	public void loginAsAnotherUser() {
 		createNewPlanTest.logOut();
-		createNewPlanTest.loginAndGoToMainPage("robert+4@gociety.com",
-				"tajne123");
+		createNewPlanTest.loginAndGoToMainPage("",
+				"");
 	}
 
 }
