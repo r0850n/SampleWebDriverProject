@@ -11,6 +11,7 @@ import Ent.Category;
 import Ent.Paces;
 import Ent.User;
 import langs.Acounts_Email;
+import langs.Pass;
 import main.CreatorService;
 
 public class CreateAcountTest extends CreatorService {
@@ -18,18 +19,18 @@ public class CreateAcountTest extends CreatorService {
 	
 	@Test       
 	public void tesEditAcount() throws Exception{
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 	GocietyMainPage	mainPage= getMainPage();
 		
 		String firstName="janusz";
 		String lastName="janusz";
 		
-		loginAsAnotherUser("robert+12@gociety.com", "tajne123");
+		loginAsAnotherUser(Acounts_Email.getEmail("12"), Pass.getPass("RG_pass"));
 		getPageEditProfile().changeName(firstName,lastName);
 		
 		getProfile().getLogOutButton().click();
 		getProfile().getSignOut().click();
-		loginAndGoToMainPage("robert+12@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("12"), Pass.getPass("RG_pass"));
 		System.out.println(mainPage.getWelcomText().getText());
 		
 		Assert.assertEquals(mainPage.getWelcomText().getText(), "Welcome, "+firstName );
@@ -38,7 +39,7 @@ public class CreateAcountTest extends CreatorService {
 	  
 	@Test     
 	public void createPlan() throws InterruptedException{
-		loginAndGoToMainPage("robert+3@gociety.com", "tajne123");
+		loginAndGoToMainPage(Acounts_Email.getEmail("RG_Email_3"), Pass.getPass("RG_pass"));
 		MyPlanPage planPage = getPlanPage();
 		
 		planPage.TITLE="test54785676";
@@ -76,8 +77,8 @@ public class CreateAcountTest extends CreatorService {
 	@Test  
 	public void createNewAcount() throws Exception{ 
 		
-		String newUserLogin="robert+9@gociety.com";
-		String newUserPassword="tajne123";
+		String newUserLogin="";
+		String newUserPassword="";
 		
 	User user= new User();
 	user.setEmail(newUserLogin);
